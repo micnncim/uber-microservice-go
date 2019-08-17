@@ -1,0 +1,12 @@
+# Bazel
+
+/bazel-bin
+/bazel-genfiles
+/bazel-uber-microservice-go
+/bazel-out
+/bazel-testlogs
+
+# Generated files
+*.pb.go
+*.pb.validate.go
+*.mock.go
