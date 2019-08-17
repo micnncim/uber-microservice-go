@@ -1,6 +1,6 @@
 # uber-microservice-go
 
-This repository imitates Uber's Go microservice architecture based on GopherCon 2019 talk session `How Uber "Go"es`.
+This repository imitates Uber's Go microservice architecture based on the GopherCon 2019 talk session `How Uber "Go"es`.
 
 ## NOTICE
 
