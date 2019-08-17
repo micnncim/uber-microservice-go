@@ -5,5 +5,5 @@ go_library(
     srcs = ["repository.go"],
     importpath = "github.com/example/project/service/user/repository",
     visibility = ["//visibility:public"],
-    deps = ["@com_github_gocql_gocql//:go_default_library"],
+    deps = ["//vendor/github.com/gocql/gocql:go_default_library"],
 )

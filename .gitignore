@@ -6,6 +6,10 @@
 /bazel-out
 /bazel-testlogs
 
+# Go
+
+/vendor
+
 # Generated files
 *.pb.go
 *.pb.validate.go

@@ -5,4 +5,5 @@ go_library(
     srcs = ["controller.go"],
     importpath = "github.com/example/project/service/ride/controller",
     visibility = ["//visibility:public"],
+    deps = ["//vendor/go.uber.org/zap:go_default_library"],
 )

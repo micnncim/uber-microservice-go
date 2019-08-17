@@ -1,0 +1,8 @@
+load("@io_bazel_rules_go//go:def.bzl", "go_library")
+
+go_library(
+    name = "go_default_library",
+    srcs = ["stripe.go"],
+    importpath = "github.com/example/project/service/ride/gateway/payment/stripe",
+    visibility = ["//visibility:public"],
+)
